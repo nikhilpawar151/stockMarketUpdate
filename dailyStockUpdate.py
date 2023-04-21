@@ -1,3 +1,5 @@
+#This project is only for the educational purpose.
+
 from bs4 import BeautifulSoup
 import requests
 import datetime
@@ -17,8 +19,6 @@ stocks = list.find_all("div", class_="companyList")
 print(len(stocks))
 data = []
 count = 0
-header = ["Company", "LTP", "Gain", "Gain %", "D Low", "D High", "Volume"]
-print(header)
 for s in stocks :
     company = s.find("span", class_="cd-heading").text
     price = s.find("div", class_="companyDetail").find_all("div", class_="col-md-4")
