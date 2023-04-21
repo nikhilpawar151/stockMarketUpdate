@@ -6,6 +6,11 @@ In this project we have will get top 10 stocks from Nifty 500 and send email. Au
 
 
 
+## Screenshot
+
+![App Screenshot](https://bestintechnology.in/uploadLinks/daily_stock_update.PNG)
+
+
 ## Create App Password (Gmail Account)
 
 To create an app password for your Gmail account, please follow these steps:
