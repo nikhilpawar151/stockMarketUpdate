@@ -89,4 +89,8 @@ SENDER_EMAIL = "<Add your email ID>"
 MAIL_PASSWORD = "<Add your App Code from Gmail account>"
 RECEIVER_EMAIL = "<Add receiver's email ID>"
 
+#Create CSV file for the data.
+file_name = f"{today}.csv"
+df.to_csv(file_name, index=False)
+
 send_mail(SENDER_EMAIL, RECEIVER_EMAIL, MAIL_PASSWORD, subject, body)
